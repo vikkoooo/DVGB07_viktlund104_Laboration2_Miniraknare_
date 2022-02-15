@@ -8,12 +8,19 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
+/*
+ * Program is a calculator that can handle multiple operations
+ * 
+ * By Viktor Lundberg (viktlund104)
+ * 2022-02-15
+ */
+
 namespace DVGB07_viktlund104_Laboration2_Miniraknare
 {
 	public partial class MainForm : Form
 	{
 		// Variables
-		private double firstNumber; //input gets stored here when pressing operators
+		private double firstNumber; // input gets stored here when pressing operators
 		private double secondNumber; // when clicking equal the input gets stored here instead
 		private double sum; // the sum of the calculations so far
 		private string newOperation = ""; // the next operation the user wants to do
